@@ -1,0 +1,8 @@
+/.vs
+/Api.Test.Project/obj
+/Api.Test.Project/bin
+/Test.Helper.Project/bin
+/Test.Helper.Project/obj
+/UI.Test.Project/bin
+/UI.Test.Project/obj
+/*.bak
