@@ -3,7 +3,7 @@ using System.IO;
 using System.Net.Http;
 using System.Reflection;
 using Microsoft.Extensions.DependencyInjection;
-using TechTalk.SpecFlow;
+using Reqnroll;
 using Microsoft.Extensions.DependencyInjection.Extensions;
 using Microsoft.Extensions.Http;
 using System.Net;

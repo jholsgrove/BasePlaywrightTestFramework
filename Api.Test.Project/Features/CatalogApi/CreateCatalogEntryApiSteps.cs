@@ -1,7 +1,7 @@
 ﻿using Newtonsoft.Json;
 using NUnit.Framework;
 using System.Net;
-using TechTalk.SpecFlow;
+using Reqnroll;
 using Test.Helper.Project;
 using Test.Helper.Project.DTOs;
 

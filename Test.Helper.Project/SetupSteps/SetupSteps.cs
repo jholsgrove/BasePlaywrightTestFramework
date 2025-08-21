@@ -1,6 +1,5 @@
 ﻿using Newtonsoft.Json;
-using TechTalk.SpecFlow;
-using TechTalk.SpecFlow.Assist;
+using Reqnroll;
 using Test.Helper.Project.DTOs;
 
 namespace Test.Helper.Project.SetupSteps
