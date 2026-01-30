@@ -8,10 +8,11 @@ namespace Test.Helper.Project
 
 		static TestConfiguration()
 		{
-			var path = Path.GetDirectoryName(AppDomain.CurrentDomain.BaseDirectory);
-			var file = $@"{path}\appsettings.json";
-
-			Config = new ConfigurationBuilder().AddJsonFile(file).AddEnvironmentVariables().Build();
+			Config = new ConfigurationBuilder()
+				.SetBasePath(AppDomain.CurrentDomain.BaseDirectory)
+				.AddJsonFile("appsettings.json")
+				.AddEnvironmentVariables()
+				.Build();
 		}
 
 		/// <summary>
